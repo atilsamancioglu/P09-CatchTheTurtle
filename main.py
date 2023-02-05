@@ -106,10 +106,6 @@ def countdown(time):
         count_down_turtle.clear()
         hide_turtles()
         count_down_turtle.write("Game Over!", align='center', font=FONT)
-        restart = screen.textinput("Game over!","\nDo you want to restart ? (y/n)")
-        if restart == "y":
-            screen.clearscreen()
-            start_game_up()
 
 
 def start_game_up():
