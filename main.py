@@ -107,7 +107,6 @@ def countdown(time):
         hide_turtles()
         count_down_turtle.write("Game Over!", align='center', font=FONT)
 
-
 def start_game_up():
     global game_over
     game_over = False
